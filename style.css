@@ -10,6 +10,9 @@
     font-family: Higher;
     src: url(./Higher.ttf);
 }
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -22,6 +25,14 @@
     background-color: #000;
 }
 
+a,a:hover,a:click, a:visited{
+    border:none;
+    outline:none;
+    text-decoration:none;
+    color:inherit;
+    -webkit-tap-highlight-color: white;
+  }
+  
 html, body {
     height: 100%;
     width: 100%;
@@ -198,8 +209,8 @@ left:10wh;
 
 
 #movingtext:hover{
-    transform: scale(20%);
-    transition: 0.5s;
+    transform: translateX(20px);
+    transition: 1s;
 }
 
 #Workheader {
@@ -545,18 +556,7 @@ margin-bottom: 200px;
 }
 
 #Contactheader {
-    position: absolute;
-    z-index: inherit;
-    font-size: 1.8vw;
-    text-transform: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight:normal;
-    line-height: 14vw;
-    letter-spacing: 0px;
-    opacity: 100;
-    color: #ffff00;
-    margin-top: 550px;
-    margin-right: 600px;
+   
     
 }
 
